@@ -1,0 +1,19 @@
+Data Scientist
+The company wants to introduce a new router model. To reduce the impact in case the router does not work as expected and to gain experience with the new model, the router is first introduced in two piloting regions using two different methods (method A and B). Contrary to method B, method A is a staggered rollout, furthermore the router has a slightly different configuration. Vodafone plans to introduce the router in the remaining regions over the next months.
+How many additional tickets should be expected in the remaining regions if method A or B is used?
+Which method would you recommend to management, and why?
+General tips:
+At Vodafone, we document customer calls as “tickets”. So each ticket corresponds to a problem that the customer has with their internet connection.
+Therefore, we can use the number of tickets to estimate how error prone a router is.
+Available data:
+Customer tickets
+	Column 1: when the ticket was opened
+	Column 2: unique customer number
+Customers by region
+	Column 1: unique customer number
+	Column 2: region the customer is located in 
+
+Please summarize your results on one page.
+We are asking for a rough estimate of the expected ticket numbers. You don’t need to consider everything. 
+You can use your preferred programming language. Please also submit your code.
+The task should not take you more than a few hours.
